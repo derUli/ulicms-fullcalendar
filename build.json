@@ -1,0 +1,10 @@
+{
+	"id": "fullcalendar",
+	"version": "1.0.0",
+	"description": "Event Calendar for UliCMS",
+	"categories": [
+		"event",
+		"calendar"
+	],
+	"compatible_from": "2018.3"
+}

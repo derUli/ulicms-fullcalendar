@@ -1,0 +1,25 @@
+{
+	"source": "extend",
+	"version": "1.0.0",
+	"embed": true,
+	"objects": {
+		"Event": "objects/Event.php"
+	},
+	"controllers": {
+		"FullCalendar": "FullCalendar.php"
+	},
+	"main_class": "FullCalendar",
+	"custom_acl": [
+		"fullcalendar_create",
+		"fullcalendar_edit",
+		"fullcalendar_delete",
+		"fullcalendar"
+	],
+	"admin_permission": "fullcalendar",
+	"controller_function_permissions": {
+		"FullCalendar::addItem": "fullcalendar_create",
+		"FullCalendar::changeEventTimespan": "fullcalendar_edit",
+		"FullCalendar::renameEvent": "fullcalendar_edit",
+		"FullCalendar::deleteEvent": "fullcalendar_delete"
+	}
+}
