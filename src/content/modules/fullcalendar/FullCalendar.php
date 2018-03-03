@@ -25,11 +25,6 @@ class FullCalendar extends MainClass {
 	public function getJsonData($start, $end) {
 		$events = array ();
 		
-		$adapter = CacheUtil::getAdapter ();
-		
-		if ($adapter and $adapter->get ( CacheUtil::getCurrentUid () )) {
-			return $adapter->get ( CacheUtil::getCurrentUid () );
-		}
 		$sql = "SELECT * FROM `" . tbname ( "events" ) . "` WHERE `start` >= " . intval ( $start ) . " AND `end` <=" . intval ( $end ) . " ORDER BY id";
 		$query = db_query ( $sql );
 		while ( $row = db_fetch_object ( $query ) ) {
@@ -42,10 +37,6 @@ class FullCalendar extends MainClass {
 				$obj ["url"] = $row->url;
 			}
 			array_push ( $events, $obj );
-		}
-		
-		if ($adapter) {
-			$adapter->set ( CacheUtil::getCurrentUid (), $json, CacheUtil::getCachePeriod () );
 		}
 		return $events;
 	}
