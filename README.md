@@ -10,6 +10,8 @@ This module is a [fullcalendar](https://fullcalendar.io/) based event calendar f
 
 Version 1.0 is a complete rewrite and is completely controlled by drag and drop.
 
+The module can be embedded to a page using an embed code.
+
 ## Usage
 
 ### Required Permissions
