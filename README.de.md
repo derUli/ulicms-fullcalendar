@@ -6,17 +6,17 @@ jQuery Veranstaltungskalender für UliCMS
 
 ## Beschreibung
 
-This module is a [fullcalendar](https://fullcalendar.io/) based event calendar for UliCMS
+Dieses Software ist ein auf [fullcalendar](https://fullcalendar.io/) basierender Veranstaltungskalender für UliCMS
 
-Version 1.0 is a complete rewrite and is completely controlled by drag and drop.
+Version 1.0 wurde komplett neu entwickelt und die Bedienung erfolgt nun per Drag and Drop.
 
-The module can be embedded to a page using an embed code.
+Der Kalender kann über einen Embed-Code in eine Seite eingebunden werden.
 
 ## Benutzung
 
 ### Benötigte Berechtigungen
 
-To manage events a user need this permissions
+Um Veranstaltungen zu verwalten benötigt ein benutzer die folgenden Berechtigungen.
 
 * fullcalendar
 * fullcalendar_create
