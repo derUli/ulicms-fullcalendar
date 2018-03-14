@@ -25,11 +25,11 @@ Um Veranstaltungen zu verwalten benötigt ein benutzer die folgenden Berechtigun
 
 ### Einen Termin erstellen
 
-1. Left Click on a day, select one or more days and leave the mouse button.
+1. Klicken Sie mit der linken Maustaste auf eine Datumszelle, markieren sie den gewünschten Zeitraum aus lassen sie die Mauustaste los
 
-2. Enter a title and click "OK".
+2. Geben Sie einen Titel ein und klicken Sie auf "OK".
 
-3. Optionally : Enter a URL and hit "OK"
+3. Optional: Geben Sie eine URL ein, unter der man Informationen zu diesem Termin erhält und klicken Sie auf "OK"
 
 ### Ein Terminzeitraum ändern
 
