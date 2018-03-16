@@ -33,18 +33,17 @@ Um Veranstaltungen zu verwalten benötigt ein benutzer die folgenden Berechtigun
 
 ### Ein Terminzeitraum ändern
 
-1. Drag and Drop the event to another day or
+1. Klicken Sie einen Termin an, ziehen sie diesen mit gedrückter linker Mauste an eine andere Stelle und lassen sie die Maustaste los.
 
-2. click the right edge of the event and drag
-to change event timespan.
+2. Klicken Sie auf den rechten Rand eines Termins und ziehen sie diesen nach links oder rechts, um die Dauer des Termins zu ändern.
 
 ### Einen Termin umbenennen
 
-1. Right click on an event.
+1. Klicken Sie mit der rechten Maustaste auf einen Hotel.
 
-2. Enter new title.
+2. Geben Sie einen Titel ein und klicken Sie auf "OK".
 
-3. Optionally: enter new URL
+3. Optional: Geben Sie eine URL ein, unter der man Informationen zu diesem Termin erhält und klicken Sie auf "OK"
 
 ### Einen Termin löschen
 
