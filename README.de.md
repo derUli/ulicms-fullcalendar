@@ -39,7 +39,7 @@ Um Veranstaltungen zu verwalten benötigt ein benutzer die folgenden Berechtigun
 
 ### Einen Termin umbenennen
 
-1. Klicken Sie mit der rechten Maustaste auf einen Hotel.
+1. Klicken Sie mit der rechten Maustaste auf einen Terin.
 
 2. Geben Sie einen Titel ein und klicken Sie auf "OK".
 
@@ -47,6 +47,6 @@ Um Veranstaltungen zu verwalten benötigt ein benutzer die folgenden Berechtigun
 
 ### Einen Termin löschen
 
-1. Click an event and drop it to "Recycle Bin"
+1. Klicken Sie einen Termin an und ziehen sie diesen mit gedrückter Maustaste auf den Button "Papierkorb".
 
-2. Click "OK" to confirm deletion
+2. Klicken Sie auf "OK" um das Löschen zu bestätigen.
