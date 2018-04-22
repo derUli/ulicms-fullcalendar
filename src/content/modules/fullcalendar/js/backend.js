@@ -36,9 +36,9 @@ function deleteEvent(event) {
 }
 
 function renameEvent(calEvent, jsEvent, view) {
-	var title = prompt(Translation.EVENT_TITLE, calEvent.title);
+	var title = prompt(Translation.EventTitle, calEvent.title);
 	if (title) {
-		var url = prompt(Translation.EVENT_URL, calEvent.url);
+		var url = prompt(Translation.EventUrl, calEvent.url);
 		if (url == "") {
 			$url = null;
 		}
@@ -74,9 +74,9 @@ $(function() {
 				selectable : true,
 				selectHelper : true,
 				select : function(start, end) {
-					var title = prompt(Translation.EVENT_TITLE);
+					var title = prompt(Translation.EventTitle);
 					if (title) {
-						var url = prompt(Translation.EVENT_URL);
+						var url = prompt(Translation.EventUrl);
 						if (url == "") {
 							$url = null;
 						}
@@ -133,7 +133,7 @@ $(function() {
 
 					if (jsEvent.pageX >= x1 && jsEvent.pageX <= x2
 							&& jsEvent.pageY >= y1 && jsEvent.pageY <= y2) {
-						if (confirm(Translation.ASK_FOR_DELETE)) {
+						if (confirm(Translation.AskForDelete)) {
 							$('#calendar').fullCalendar('removeEvents',
 									event.id);
 							deleteEvent(event);
